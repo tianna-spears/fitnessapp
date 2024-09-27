@@ -13,7 +13,7 @@ flex-col items-center justify-center gap-10 p-4 text-center'>
             </div>
             <p className='justify-center text-sm font-light md:text-base'> 
             I hearby acknowledge that I am ready to commit to <span className='font-medium text-blue-400'> myself, </span> 
-            a <span className='font-medium text-blue-400'> healthier </span> lifestyle, and better
+            a <span className='font-medium text-blue-400'> healthier </span> lifestyle, <br/>and better
             <span className='font-medium text-blue-400'> habits.</span>
             </p>
             <button className='blueShadow rounded-md border-[2px] 
