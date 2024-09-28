@@ -1,7 +1,7 @@
 // import React from 'react';
 import Button from './Button';
 
-export default function Hero(s) {
+export default function Hero() {
     return (
 <div className='mx-auto flex min-h-screen w-full max-w-[800px] 
 flex-col items-center justify-center gap-10 p-4 text-center'>
@@ -18,8 +18,10 @@ flex-col items-center justify-center gap-10 p-4 text-center'>
             <span className='font-medium text-blue-400'> habits.</span>
             </p>
 
-            <Button text={"Accept & Begin"}> </Button>
-
+            <Button func={() =>{
+                window.location.href = '#generate'
+            }} 
+                text={"Accept & Begin"}> </Button>
         </div>
     )
 }

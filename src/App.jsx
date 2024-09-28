@@ -16,8 +16,9 @@ function App() {
     }
     const newWorkout= generateWorkout({poison, muscles, goal});
     setWorkout(newWorkout)
-  }
 
+    window.location.href= '#workout';
+  }
 
   return (
     <main className='flex min-h-screen flex-col bg-gradient-to-r
