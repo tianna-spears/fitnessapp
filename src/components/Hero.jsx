@@ -1,6 +1,7 @@
 // import React from 'react';
+import Button from './Button';
 
-export default function Hero() {
+export default function Hero(s) {
     return (
 <div className='mx-auto flex min-h-screen w-full max-w-[800px] 
 flex-col items-center justify-center gap-10 p-4 text-center'>
@@ -16,10 +17,8 @@ flex-col items-center justify-center gap-10 p-4 text-center'>
             a <span className='font-medium text-blue-400'> healthier </span> lifestyle, <br/>and better
             <span className='font-medium text-blue-400'> habits.</span>
             </p>
-            <button className='blueShadow rounded-md border-[2px] 
-            border-solid border-blue-400 bg-slate-950 px-8 py-4 duration-200'>
-                <p> Accept and Begin</p>
-            </button>
+
+            <Button text={"Accept & Begin"}> </Button>
 
         </div>
     )
