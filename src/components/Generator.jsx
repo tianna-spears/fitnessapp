@@ -67,7 +67,7 @@ export default function Generator (props) {
                         <button onClick={() => {
                             setMuscles([])
                             setPoison(type)
-                        }} className={'bg-slate-950 border px-4 duration-200 px-4 hover:border-blue-600 py-3 rounded-lg ' + 
+                        }} className={'bg-slate-950 border px-4 duration-200 hover:border-blue-600 py-3 rounded-lg ' + 
                         (type === poison ? ' border-blue-600' : ' border-blue-400')} key={typeIndex}>
                         <p className='capitalize'>{type.replaceAll('_', " ")}</p>
                     </button>
