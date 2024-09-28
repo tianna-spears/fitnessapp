@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import SectionWrapper from './SectionWrapper';
 import Button from './Button';
@@ -21,6 +22,7 @@ function Header(props) {
 
 export default function Generator (props) {
     const { poison, setPoison, muscles, setMuscles, goal, setGoal, updateWorkout} = props;
+
     const [ showModal, setShowModal ] = useState(false);
 
     function toggleModal() {
@@ -49,9 +51,9 @@ export default function Generator (props) {
             setShowModal(false);
     }
 
-
     return (
         <SectionWrapper 
+        id={'generate'}
         header={"generate your workout"}
         title= {['Its', ' Huge', 'o\'clock']}>
 

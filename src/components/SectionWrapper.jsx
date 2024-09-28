@@ -1,10 +1,13 @@
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 export default function SectionWrapper(props) {
-    const { children, header, title } = props;
+    const { children, header, title, id} = props;
     
     return (
-        <section className='flex min-h-screen flex-col gap-10'>
+        <section id={id} 
+        className='flex min-h-screen flex-col gap-10'>
             <div className='flex flex-col items-center justify-center
             gap-2 bg-slate-950 p-4 py-10'>
                 <p className='font-medium uppercase'> {header} </p>
